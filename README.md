@@ -5,7 +5,7 @@ CHALLENGE 5 Task board
 
 GITHUB REPO LINK -- https://github.com/parthacrana/taskboard
 
-LINK TO DEPLOYED APPLICATION VIA PAGES -- 
+LINK TO DEPLOYED APPLICATION VIA PAGES -- https://parthacrana.github.io/taskboard/
 
 This is the readme file for the personal blog challenge! Week 3 challenge 5! 
 

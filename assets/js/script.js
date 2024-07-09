@@ -8,7 +8,8 @@ let nextId = JSON.parse(localStorage.getItem("nextId")) || 1;
 // Todo: create a function to generate a unique task id
 function generateTaskId() {
 
-// incorporating dayJS for date format with string of toxens passed 
+// incorporating dayJS for date format with string of tokens passed 
+// 4 digit year, 2 digit month, day of month 2 digit, hour 2 digit...
 return 'task-' + dayjs().format('YYYYMMDDHHmmssSSS')
 };
 
@@ -59,7 +60,7 @@ function createTaskCard(task) {
  return card;
 };
 
-// -----------------------------------------------------------------
+// ---------------------------------------------------------------------------------
 
 
 // Todo: create a function to render the task list and make cards draggable
@@ -89,7 +90,7 @@ function renderTaskList() {
     });
 }
 
-// -----------------------------------------------------------------
+// ------------------------------------------------------------------------------
 
 
 // Todo: create a function to handle adding a new task
@@ -119,7 +120,7 @@ function handleAddTask(event){
     document.getElementById('taskForm').reset();
 };
 
-// -----------------------------------------------------------------
+// ---------------------------------------------------------------------------------
 
 
 // Todo: create a function to handle deleting a task
